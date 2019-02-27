@@ -39,18 +39,52 @@ ul.description li{
 }
 
 #searchWrap{
-  display: flex;
+  /* display: flex; */
   height: 600px;
   justify-content: center;
   align-items: center;
+  /* margin-top: -30px; */
+}
+#pageSearch{
+  position: relative;
+  z-index: 2;
+}
+.dimmer{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 1;
+}
+#searchWrap blockquote{
+  /* margin: 0 auto;
+  display: block; */
+}
+form{
+  margin 0 auto;
 }
 .fullWidthBG{
   background: url(../../images/bg-15.jpg);
+  /* https://seegirlwork.com/automate-your-business/ */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 #pageHeader{
+  width: 100%;
   padding-top: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+}
+#logo, .white{
+  color: #fff;
+}
+.bookCat{
+  margin: 60px 0;
 }
