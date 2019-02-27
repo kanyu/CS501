@@ -1,0 +1,56 @@
+@media (min-width: 1200px)
+.container {
+    max-width: 1140px;
+}
+@media (min-width: 992px)
+.container {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container {
+    max-width: 540px;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.aBook{
+  margin-bottom: 30px;
+}
+#bookSection{
+
+}
+
+ul.description li{
+
+}
+
+.row{
+
+  margin-bottom: 30px;
+}
+
+#searchWrap{
+  display: flex;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+.fullWidthBG{
+  background: url(../../images/bg-15.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#pageHeader{
+  padding-top: 30px;
+}
